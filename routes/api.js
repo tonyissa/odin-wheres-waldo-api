@@ -6,7 +6,7 @@ const Coords = require('../models/Coords');
 
 /* GET scores */
 router.get('/scores', async (req, res, next) => {
-    const response = await Score.find().exec();
+    const response = await Score.find().sort({ time: 1 }).exec();
     res.json(response);
 });
 
