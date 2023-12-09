@@ -2,4 +2,4 @@
 API for wheres-waldo frontend
 
 # Front-end repository
-https://github.com/antwonthedamaja/odin-wheres-waldo/
+https://github.com/tonyissa/odin-wheres-waldo/
